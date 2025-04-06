@@ -8,58 +8,64 @@
 
 ## 🚗 Gameplay Overview
 
-- **Choose Your Car & Track**: Select from 3 custom-modeled cars and 3 handcrafted AR tracks.
-- **Place in Real World**: Place your chosen track and car onto any flat surface using your iPhone or iPad.
-- **Race with Motion Controls**: Use tilt-based steering and two-finger controls to throttle and brake.
-- **Checkpoint Logic**: Progress through checkpoints in sequence — laps are only valid if you follow the correct path.
-- **Leaderboard System**: Automatically record your best lap to a local leaderboard with timestamp, username, car, and track.
+-   **Choose Your Car & Track**: Select from 3 custom-modeled cars and 3 handcrafted AR tracks.
+-   **Place in Real World**: Place your chosen track and car onto any flat surface using your iPhone or iPad.
+-   **Race with Motion Controls**: Use tilt-based steering and two-finger controls to throttle and brake.
+-   **Checkpoint Logic**: Progress through checkpoints in sequence — laps are only valid if you follow the correct path.
+-   **Leaderboard System**: Automatically record your best lap to a local leaderboard with timestamp, username, car, and track.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Language**: Swift 5
-- **Frameworks**: 
-  - `RealityKit` for 3D models, physics, and scene handling  
-  - `ARKit` for plane detection and AR anchoring  
-  - `CoreMotion` for tilt steering  
-  - `SwiftUI` for all UI and screen transitions  
-  - `JSON` for saving leaderboard, car, and track data
+-   **Language**: Swift 5
+-   **Frameworks**:
+    -   `RealityKit` for 3D models, physics, and scene handling
+    -   `ARKit` for plane detection and AR anchoring
+    -   `CoreMotion` for tilt steering
+    -   `SwiftUI` for all UI and screen transitions
+    -   `JSON` for saving leaderboard, car, and track data
 
 ---
 
 ## 🎮 Features
 
 ### 🚙 Cars
+
 Each car has its own:
-- 3D AR model + thumbnail image
-- Acceleration profile
-- Coasting and braking logic
-- Maximum speed limit
+
+-   3D AR model + thumbnail image
+-   Acceleration profile
+-   Coasting and braking logic
+-   Maximum speed limit
 
 ### 🛣️ Tracks
+
 Each track:
-- Is placed in AR on flat surfaces
-- Contains visible checkpoints and logic zones for lap validation
-- Is uniquely shaped (short circuit, long straight, curvy maze)
+
+-   Is placed in AR on flat surfaces
+-   Contains visible checkpoints and logic zones for lap validation
+-   Is uniquely shaped (short circuit, long straight, curvy maze)
 
 ### 🧠 Driving Physics
-- Speed control via throttle, coasting, and brake
-- Motion-based steering adjusts rotation using device orientation
-- Realistic deceleration for speed management
+
+-   Speed control via throttle, coasting, and brake
+-   Motion-based steering adjusts rotation using device orientation
+-   Realistic deceleration for speed management
 
 ### 🏆 Leaderboard
-- Stores top 10 fastest laps
-- Displays player name, date, car, track, and time
-- Saves to disk using `Codable` and `JSONEncoder`
+
+-   Stores top 10 fastest laps
+-   Displays player name, date, car, track, and time
+-   Saves to disk using `Codable` and `JSONEncoder`
 
 ---
 
 ## 📦 Assets
 
-- Cars from **BlenderKit** and other open 3D repositories
-- Tracks created by modifying Blender circuits
-- Models optimized and exported to `.usdz` for Apple AR compatibility
+-   Cars from **BlenderKit** and other open 3D repositories
+-   Tracks created by modifying Blender circuits
+-   Models optimized and exported to `.usdz` for Apple AR compatibility
 
 ---
 
@@ -75,7 +81,7 @@ As a lifelong racing enthusiast, I wanted to create something that combines my l
 
 ---
 
-### 🧠 Author
+### 🧠 Let’s Connect!
 
 **Tej Jaideep Patel**  
 B.S. Computer Engineering  
@@ -84,5 +90,3 @@ B.S. Computer Engineering
 📞 814-826-5544
 
 ---
-
-
