@@ -81,7 +81,7 @@ As a lifelong racing enthusiast, I wanted to create something that combines my l
 
 ---
 
-### 🧠 Let’s Connect!
+## 🧠 Let’s Connect!
 
 **Tej Jaideep Patel**  
 B.S. Computer Engineering  
