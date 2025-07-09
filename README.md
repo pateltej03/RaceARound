@@ -22,19 +22,25 @@
 
 Swiping between car and track options, customizing username, and seeing it reflected in the welcome message.
 
-<img src="./RaceARound_1.gif" width="500" title="Home and Setup UI">
+<div align="center">
+    <img src="./RaceARound_1.gif" width="500" title="Home and Setup UI">
+</div>
 
 ### 🕹️ AR Racing in Action
 
 Placing car and track in real-world view, using motion controls to drive, and observing validation when checkpoints are missed or followed.
 
-<img src="./RaceARound_2.gif" width="500" title="Gameplay and Controls">
+<div align="center">
+    <img src="./RaceARound_2.gif" width="500" title="Gameplay and Controls">
+</div>
 
 ### 🏁 Lap Time + Leaderboard Integration
 
 Post-race summary with individual lap breakdown, and leaderboard auto-updates with fastest lap from the session.
 
-<img src="./RaceARound_3.gif" width="500" title="Race Results and Leaderboard">
+<div align="center">
+    <img src="./RaceARound_3.gif" width="500" title="Race Results and Leaderboard">
+</div>
 
 ---
 
